@@ -5,7 +5,7 @@ Summary:	PostScript::EPSF perl module
 Summary(pl):	Modu³ perla PostScript::EPSF
 Name:		perl-PostScript-EPSF
 Version:	0.01
-Release:	8
+Release:	9
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
