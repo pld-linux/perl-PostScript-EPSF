@@ -27,7 +27,7 @@ u³atwia w³±czanie plików EPSF do wyj¶ciowego pliku postscriptowego.
 
 %build
 perl Makefile.PL
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
