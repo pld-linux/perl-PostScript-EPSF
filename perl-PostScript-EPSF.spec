@@ -28,7 +28,7 @@ u³atwia w³±czanie plików EPSF do wyj¶ciowego pliku postscriptowego.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
