@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	PostScript
 %define	pnam	EPSF
-%include	/usr/lib/rpm/macros.perl
 Summary:	PostScript-EPSF perl module
 Summary(pl):	Modu³ perla PostScript-EPSF
 Name:		perl-PostScript-EPSF
 Version:	0.01
-Release:	7
-
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -24,7 +23,7 @@ PostScript-EPSF module udostêpnia funkcjê include_epsf(), która
 u³atwia w³±czanie plików EPSF do wyj¶ciowego pliku postscriptowego.
 
 %prep
-%setup -q -n PostScript-EPSF-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
