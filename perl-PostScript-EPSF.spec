@@ -9,7 +9,7 @@ Summary:	PostScript::EPSF perl module
 Summary(pl):	Modu³ perla PostScript::EPSF
 Name:		perl-PostScript-EPSF
 Version:	0.01
-Release:	9
+Release:	10
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
