@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	PostScript
-%define	pnam	EPSF
+%define		pdir	PostScript
+%define		pnam	EPSF
 Summary:	PostScript::EPSF perl module
 Summary(pl):	Modu³ perla PostScript::EPSF
 Name:		perl-PostScript-EPSF
