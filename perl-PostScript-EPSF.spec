@@ -6,7 +6,7 @@
 %define		pdir	PostScript
 %define		pnam	EPSF
 Summary:	PostScript::EPSF perl module
-Summary(pl):	Modu³ perla PostScript::EPSF
+Summary(pl.UTF-8):   ModuÅ‚ perla PostScript::EPSF
 Name:		perl-PostScript-EPSF
 Version:	0.01
 Release:	10
@@ -24,9 +24,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 PostScript::EPSF module provides the function include_epsf() that makes
 it easy to include external EPSF files in your postscript output.
 
-%description -l pl
-PostScript::EPSF module udostêpnia funkcjê include_epsf(), która
-u³atwia w³±czanie plików EPSF do wyj¶ciowego pliku postscriptowego.
+%description -l pl.UTF-8
+PostScript::EPSF module udostÄ™pnia funkcjÄ™ include_epsf(), ktÃ³ra
+uÅ‚atwia wÅ‚Ä…czanie plikÃ³w EPSF do wyjÅ›ciowego pliku postscriptowego.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
