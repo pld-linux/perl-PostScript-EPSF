@@ -6,7 +6,7 @@
 %define		pdir	PostScript
 %define		pnam	EPSF
 Summary:	PostScript::EPSF perl module
-Summary(pl.UTF-8):   Moduł perla PostScript::EPSF
+Summary(pl.UTF-8):	Moduł perla PostScript::EPSF
 Name:		perl-PostScript-EPSF
 Version:	0.01
 Release:	10
