@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	PostScript
 %define		pnam	EPSF
+%include	/usr/lib/rpm/macros.perl
 Summary:	PostScript::EPSF perl module
 Summary(pl.UTF-8):	Moduł perla PostScript::EPSF
 Name:		perl-PostScript-EPSF
@@ -15,14 +15,16 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	66a9c8e1173c5b1ad649545ae90e73b2
-BuildRequires:	rpm-perlprov >= 4.1-13
+URL:		http://search.cpan.org/dist/PostScript-EPSF/
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-PostScript::EPSF module provides the function include_epsf() that makes
-it easy to include external EPSF files in your postscript output.
+PostScript::EPSF module provides the function include_epsf() that
+makes it easy to include external EPSF files in your postscript
+output.
 
 %description -l pl.UTF-8
 PostScript::EPSF module udostępnia funkcję include_epsf(), która
